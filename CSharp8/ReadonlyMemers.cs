@@ -29,6 +29,8 @@ namespace CSharp8
         public readonly override string ToString() =>
             $"({X}, {Y}) is {Distance} from the origin";
 
+        public readonly void Deconstruct(out double x, out double y) => (x, y) = (X, Y);
+
         /// <summary>
         ///  Note that this code is not allowed - modification in a readonly member.
         /// </summary>
