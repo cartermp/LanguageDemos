@@ -23,10 +23,21 @@ namespace CSharp8
             static int Add(int left, int right) => left + right;
         }
 
+        public class Person
+        {
+
+        }
+
         public static int Add5And7NonStaticLocalFunction()
         {
             var five = 5;
             var seven = 7;
+
+            Person p = null;
+
+            p ??= new Person();
+            p = p ?? (p = new Person());
+
 
             return Add();
 

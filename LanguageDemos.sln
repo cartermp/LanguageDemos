@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp8", "CSharp8\CSharp8.
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp47", "FSharp47\FSharp47.fsproj", "{8BD8509F-5C05-414B-8F8C-EAA95F8D8DEE}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "XmlDSL", "XmlDSL\XmlDSL.fsproj", "{6F99B7FF-42F2-4BC6-B62A-DD1368205FF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8BD8509F-5C05-414B-8F8C-EAA95F8D8DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BD8509F-5C05-414B-8F8C-EAA95F8D8DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BD8509F-5C05-414B-8F8C-EAA95F8D8DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F99B7FF-42F2-4BC6-B62A-DD1368205FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F99B7FF-42F2-4BC6-B62A-DD1368205FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F99B7FF-42F2-4BC6-B62A-DD1368205FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F99B7FF-42F2-4BC6-B62A-DD1368205FF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
