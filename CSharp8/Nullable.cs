@@ -8,7 +8,6 @@ using System.Text;
 
 namespace CSharp8
 {
-    // This is 100% ad-hoc; nothing is prepared :)
     public static class NullableWithStrings
     {
         /// <summary>
