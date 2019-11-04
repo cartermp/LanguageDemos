@@ -32,10 +32,10 @@ namespace CSharp8
         /// <summary>
         ///  Note that this code is not allowed - modification in a readonly member.
         /// </summary>
-        public readonly ModifyTheStruct()
-        {
-            X = 12;
-            Y = 13;
-        }
+        //public readonly ModifyTheStruct()
+        //{
+        //    X = 12;
+        //    Y = 13;
+        //}
     }
 }
