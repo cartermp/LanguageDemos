@@ -33,10 +33,21 @@ namespace CSharp8
             Console.WriteLine("--------------------------------");
         }
 
+        public static void DoIndexAndRange()
+        {
+            Console.WriteLine("Showing off async streams!");
+            Console.WriteLine("--------------------------------");
+
+            IndexAndRange.Demo();
+
+            Console.WriteLine("--------------------------------");
+        }
+
         static async Task Main(string[] args)
         {
             DoDIMs();
             await DoAsyncStreams();
+            DoIndexAndRange();
         }
     }
 }
